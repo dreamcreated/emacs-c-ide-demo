@@ -1,1 +1,1 @@
-("~/workspace/PSH/" "~/.emacs.d/" "~/.emacs.spacemacs.d/")
+("~/workspace/Mod/" "~/.emacs.d/" "~/workspace/Mod/Proto/" "~/workspace/PSH/" "~/.emacs.spacemacs.d/")

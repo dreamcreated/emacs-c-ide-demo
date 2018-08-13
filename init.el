@@ -85,7 +85,7 @@
     ("-I../util/ -I../common/ -I/usr/local/include/rapidjson/ -I/home/tarsproto/Mod/Proto -I/home/tarsproto/PSH/Proto -I/home/tarsproto/Mod/BookResourceServer -I/home/tarsproto/Mod/QuestionBankServer -I/home/tarsproto/Mod/TeachingResourceServer -I/usr/local/tars/cpp/include -I./ -I/usr/local/mysql/include/mysql -I/usr/local/mysql/include -I/usr/include/mysql")))
  '(package-selected-packages
    (quote
-    (flycheck-irony company-irony-c-headers company-irony sr-speedbar function-args ggtags zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
+    (avy flycheck-irony company-irony-c-headers company-irony sr-speedbar function-args ggtags zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -134,3 +134,5 @@
 (define-key helm-gtags-mode-map (kbd "C-c >") 'helm-gtags-next-history)
 
 (global-set-key (kbd "C-x m") 'eshell)
+(add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
+(global-set-key (kbd "C-c j") 'avy-goto-char)
