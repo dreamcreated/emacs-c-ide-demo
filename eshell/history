@@ -1,0 +1,93 @@
+ll
+make
+ll
+ll
+ll
+rm TaskServer.o
+make
+apt-get search global
+apt-cache search global
+apt-cache search global | grep global
+apt-get install global
+sudo apt-get install global
+apt-cache search global | grep ggtags
+emacs --version
+cd ..
+gtags
+ls G*
+git status
+git status
+git status
+cd ../workspace/PSH/
+ll
+cd TaskServer/
+make
+rm TaskServer.o
+make
+git status
+git status
+ll
+git status
+ll
+cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
+cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
+cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
+cd /home/lida/.emacs.d/elpa/irony-20180703.1740/server
+ll
+cmake .
+ll
+mkdir build
+cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
+cd ../../../irony/
+ll
+mkdir build
+cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
+cd -
+ll
+cmake clean
+cmake cleanall
+cmake . clean
+cmake clean .
+git status
+ll
+make
+cmake
+cmake .
+rm /home/lida/.emacs.d/elpa/irony-20180703.1740/server/CMakeFiles/CMakeOutput.log
+cmake .
+cd /home/lida/.emacs.d/irony/
+ll
+rmdir build
+ll
+rm -Rf bin
+ll
+cd ..
+ll
+tree
+ll
+tree irony/
+rmdir irony
+cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
+mkdir irony
+cd irony
+cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
+/home/lida/.emacs.d/elpa/irony-20180703.1740/server
+ll
+mkdir my_build_dir
+cd my_build_dir/
+cmake ..
+cd -
+ll
+rm CMakeCache.txt 
+ll
+rmdir my_build_dir/
+cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
+ll
+rm CMakeCache.txt
+ll
+ll
+git status
+cd ~/.emacs.d/
+ll
+git status
+rr

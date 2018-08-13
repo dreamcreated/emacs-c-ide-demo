@@ -80,9 +80,6 @@
    (quote
     ("-I../util/ -I../common/ -I/usr/local/include/rapidjson/ -I/home/tarsproto/Mod/Proto -I/home/tarsproto/PSH/Proto -I/home/tarsproto/Mod/BookResourceServer -I/home/tarsproto/Mod/QuestionBankServer -I/home/tarsproto/Mod/TeachingResourceServer -I/usr/local/tars/cpp/include -I./ -I/usr/local/mysql/include/mysql -I/usr/local/mysql/include -I/usr/include/mysql" "-I /usr/include/c++/5/")))
  '(custom-enabled-themes (quote (deeper-blue)))
- '(irony-additional-clang-options
-   (quote
-    ("-I../util/ -I../common/ -I/usr/local/include/rapidjson/ -I/home/tarsproto/Mod/Proto -I/home/tarsproto/PSH/Proto -I/home/tarsproto/Mod/BookResourceServer -I/home/tarsproto/Mod/QuestionBankServer -I/home/tarsproto/Mod/TeachingResourceServer -I/usr/local/tars/cpp/include -I./ -I/usr/local/mysql/include/mysql -I/usr/local/mysql/include -I/usr/include/mysql")))
  '(package-selected-packages
    (quote
     (flycheck-irony company-irony-c-headers company-irony sr-speedbar function-args ggtags zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
@@ -132,5 +129,3 @@
 (define-key helm-gtags-mode-map (kbd "M-,") 'helm-gtags-pop-stack)
 (define-key helm-gtags-mode-map (kbd "C-c <") 'helm-gtags-previous-history)
 (define-key helm-gtags-mode-map (kbd "C-c >") 'helm-gtags-next-history)
-
-(global-set-key (kbd "C-x m") 'eshell)

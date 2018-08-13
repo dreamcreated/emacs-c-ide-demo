@@ -1,0 +1,1 @@
+("~/workspace/PSH/" "~/.emacs.d/" "~/.emacs.spacemacs.d/")
