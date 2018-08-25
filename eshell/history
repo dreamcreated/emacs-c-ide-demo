@@ -1,93 +1,128 @@
+git status
+ll
+git pull
+git add SDKProxyServer/
+git status
+git commit -m"修复GetVerifyCodeRequest不回包的bug"
+git push
+git pull
+git checkout release
+git pull
+ll
+cd Proto/
+git status
 ll
 make
-ll
-ll
-ll
-rm TaskServer.o
-make
-apt-get search global
-apt-cache search global
-apt-cache search global | grep global
-apt-get install global
-sudo apt-get install global
-apt-cache search global | grep ggtags
-emacs --version
+ make release
 cd ..
+./release_all.sh 
+ll
+cd SDKProxyServer/
+ll
+make cleanall
+make -j4
+make tar
+pwd
+ll
+git pull
+git status
+ll
+cd ~/workspace/
+ll
+jq . tmp.json
+cd Mod/
+ll
+cd util/
+ll
+grep "hmac" -r .
+ls -al /usr/local/
+ls -al /usr/local/include/
+ls -al /usr/local/include/cryptopp/
+grep "hmac" /usr/local/include/cryptopp/ 
+grep "hmac" /usr/local/include/cryptopp/  -r
+cd ..
+ll
+cd ResourceDecrypt/
+cd ..
+ll
+ll
+cd BookResourceServer
+ll
+ll
+git status
+git checkout master
+git pull
+git status
+git checkout -- .
+git status
+git status
+rm 	#BookMemory.cpp#
+git status
+ll
+cd ..
+ll
 gtags
-ls G*
-git status
-git status
-git status
-cd ../workspace/PSH/
-ll
-cd TaskServer/
-make
-rm TaskServer.o
-make
-git status
-git status
-ll
-git status
-ll
-cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
-cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
-cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
-cd /home/lida/.emacs.d/elpa/irony-20180703.1740/server
-ll
-cmake .
-ll
-mkdir build
-cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
-cd ../../../irony/
-ll
-mkdir build
-cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
-cd -
-ll
-cmake clean
-cmake cleanall
-cmake . clean
-cmake clean .
-git status
+cd common/
 ll
 make
-cmake
-cmake .
-rm /home/lida/.emacs.d/elpa/irony-20180703.1740/server/CMakeFiles/CMakeOutput.log
-cmake .
-cd /home/lida/.emacs.d/irony/
+cat makefile 
 ll
-rmdir build
+touch UrlSignHelper.h
+touch UrlSignHelper.cpp
 ll
-rm -Rf bin
+ls -al /usr/locale/
+ls -al /usr/local
+ls -al /usr/local/include
+git status
+git checkout -b feature_urlsign
+git status
+git status
 ll
 cd ..
 ll
-tree
+cd BookResourceServer/
 ll
-tree irony/
-rmdir irony
-cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
-mkdir irony
-cd irony
-cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
-/home/lida/.emacs.d/elpa/irony-20180703.1740/server
+make 
+make 
+make 
+make 
 ll
-mkdir my_build_dir
-cd my_build_dir/
-cmake ..
+git status
+cd ..
+git status
+git add common/
+git add BookResourceServer/
+git status
+git commit -m"dubbing url签名"
+git push
+    git push --set-upstream origin feature_urlsign
+chmod u+x ~/software/cc_args.py 
+~/software/cc_args.py 
+~/software/cc_args.py gcc
+~/software/cc_args.py g++
+ll
+cd AccountCenterServer/
+ll
+ make CC='~/.vim/bin/cc_args.py gcc' CXX='~/.vim/bin/cc_args.py g++' -B
+ make CC='~/software/cc_args.py gcc' CXX='~/software/cc_args.py g++' -B
+ll
+git status
+cd ..
+ll
+ls -al
 cd -
-ll
-rm CMakeCache.txt 
-ll
-rmdir my_build_dir/
-cmake -DCMAKE_INSTALL_PREFIX\=/home/lida/.emacs.d/irony/  /home/lida/.emacs.d/elpa/irony-20180703.1740/server && cmake --build . --use-stderr --config Release --target install
-ll
-rm CMakeCache.txt
-ll
-ll
 git status
-cd ~/.emacs.d/
-ll
+cd ..
 git status
-rr
+cd AccountCenterServer/
+ll
+cd ../../
+ll
+touch updateCompileOptions.sh
+git status
+ll
+chmod u+x updateCompileOptions.sh 
+cd Mod/
+ll
+cd AccountCenterServer/
+ll

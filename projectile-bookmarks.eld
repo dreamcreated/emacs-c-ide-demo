@@ -1,1 +1,1 @@
-("~/workspace/Mod/" "~/.emacs.d/" "~/workspace/Mod/Proto/" "~/workspace/PSH/" "~/.emacs.spacemacs.d/")
+("~/workspace/PSH/" "~/workspace/Mod/" "~/.emacs.d/" "~/workspace/Mod/util/" "~/workspace/lida_docs/" "~/workspace/PROJX/Server/" "~/workspace/PSH/PSHProto/" "~/workspace/Mod/Proto/" "~/workspace/APIAuth/" "~/workspace/kingsun/" "~/workspace_go/src/git.coding.net/coding_man/kuaichuan_server/" "~/workspace/Mod/LoginSdk/" "~/workspace/ModTasks/" "~/workspace/PSH/util/" "~/workspace/ModRestful/" "~/.emacs.spacemacs.d/")
