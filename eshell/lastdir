@@ -1,10 +1,5 @@
-/home/lida/workspace/PSH/BookServer
-/home/lida/workspace/Mod/LoginSdk
-/home/lida/workspace/Mod/LoginSdk/Proto
-/home/lida/workspace/Mod/CommonServer
 /home/lida/workspace/PSH/TeacherServer
 /home/lida/workspace/PSH/PSHProxyServer
-/home/lida/workspace/PSH/DubbingServer
 /home/lida/workspace_go/src/git.coding.net/coding_man/kuaichuan_server/config
 /home/lida/workspace_go/src/git.coding.net/coding_man/kuaichuan_server
 ~/workspace/APIAuth
@@ -17,7 +12,6 @@
 /home/lida/workspace/APIAuth/api
 /home/lida/workspace/APIAuth/tools
 /home/lida/workspace/PSH/PSHProto
-/home/lida/workspace/PSH
 /home/lida/workspace/PSH/TaskServer
 /home/lida/workspace/APIAuth
 /home/lida/workspace/lida_docs
@@ -27,7 +21,12 @@
 /home/lida/workspace/Mod/ResourceDecrypt
 /home/lida/workspace/Mod/common
 /home/lida/workspace/Mod/BookResourceServer
-/home/lida/workspace/Mod/AccountCenterServer
+~
+/home/lida/workspace/PSH
+/home/lida/workspace/PSH/DubbingServer
+/home/lida/.emacs.d
+/home/lida
 /home/lida/workspace
 /home/lida/workspace/Mod
+/home/lida/.nvm/versions/node/v8.9.1/bin
 /home/lida/workspace/Mod/AccountCenterServer

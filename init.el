@@ -133,7 +133,7 @@
 (define-key helm-gtags-mode-map (kbd "C-c <") 'helm-gtags-previous-history)
 (define-key helm-gtags-mode-map (kbd "C-c >") 'helm-gtags-next-history)
 
-(global-set-key (kbd "C-x m") 'eshell)
+(global-set-key (kbd "C-x m") 'multi-term)
 (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 (global-set-key (kbd "C-c j") 'avy-goto-char)
 
