@@ -85,7 +85,7 @@
     ("-I../util/ -I../common/ -I/usr/local/include/rapidjson/ -I/home/tarsproto/Mod/Proto -I/home/tarsproto/PSH/Proto -I/home/tarsproto/Mod/BookResourceServer -I/home/tarsproto/Mod/QuestionBankServer -I/home/tarsproto/Mod/TeachingResourceServer -I/usr/local/tars/cpp/include -I./ -I/usr/local/mysql/include/mysql -I/usr/local/mysql/include -I/usr/include/mysql")))
  '(package-selected-packages
    (quote
-    (go-mode indium js2-refactor avy flycheck-irony company-irony-c-headers company-irony sr-speedbar function-args ggtags zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
+    (markdown-mode magit php-mode go-mode indium js2-refactor avy flycheck-irony company-irony-c-headers company-irony sr-speedbar function-args ggtags zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -133,8 +133,38 @@
 (define-key helm-gtags-mode-map (kbd "C-c <") 'helm-gtags-previous-history)
 (define-key helm-gtags-mode-map (kbd "C-c >") 'helm-gtags-next-history)
 
-(global-set-key (kbd "C-x m") 'multi-term)
+;; (global-set-key (kbd "C-x m") 'multi-term)
+(global-set-key (kbd "C-x m") 'eshell)
 (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 (global-set-key (kbd "C-c j") 'avy-goto-char)
 
 (setq make-backup-files nil) ; stop creating backup~ files
+
+
+
+;; 当处于最后一行时 "C-a" 将光标移动到 terminal开始处而不是这个行的头
+(defun lida/is-at-end-line ()
+  "判断是否在最后一行"
+  (equal (line-number-at-pos) (count-lines (point-min) (point-max))))
+
+(defun lida/is-term-mode ()
+  "判断是否为 term 模式"
+  (string= major-mode "term-mode"))
+
+(defun lida/move-beginning-of-line ()
+  "move begin"
+  (interactive)
+  (if (not (lida/is-term-mode))
+      (beginning-of-line)
+    (if (not (lida/is-at-end-line))
+        (beginning-of-line)
+      (term-send-raw))))
+
+;; (global-set-key (kbd "C-a") 'lida/move-beginning-of-line)
+
+(setq default-tab-width 4)
+(setq indent-tabs-mode nil)
+(setq c-basic-offset 4)
+(setq c-default-style "linux")
+(put 'upcase-region 'disabled nil)
+(put 'downcase-region 'disabled nil)

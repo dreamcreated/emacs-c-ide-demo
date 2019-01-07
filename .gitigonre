@@ -1,1 +1,5 @@
-./auto-save-list/*
+auto-save-list
+eshell/history
+recentf
+./eshell/lastdir
+projectile-bookmarks.eld
