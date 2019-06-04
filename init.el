@@ -85,7 +85,7 @@
     ("-I../util/ -I../common/ -I/usr/local/include/rapidjson/ -I/home/tarsproto/Mod/Proto -I/home/tarsproto/PSH/Proto -I/home/tarsproto/Mod/BookResourceServer -I/home/tarsproto/Mod/QuestionBankServer -I/home/tarsproto/Mod/TeachingResourceServer -I/usr/local/tars/cpp/include -I./ -I/usr/local/mysql/include/mysql -I/usr/local/mysql/include -I/usr/include/mysql")))
  '(package-selected-packages
    (quote
-    (markdown-mode magit php-mode go-mode indium js2-refactor avy flycheck-irony company-irony-c-headers company-irony sr-speedbar function-args ggtags zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
+    (auto-complete ztree vue-mode markdown-mode magit php-mode go-mode indium js2-refactor avy flycheck-irony company-irony-c-headers company-irony sr-speedbar function-args ggtags zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -168,3 +168,11 @@
 (setq c-default-style "linux")
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
+
+(add-to-list 'load-path "~/.emacs.d")
+(require 'auto-complete-config)
+(ac-config-default)
+
+(require 'go-autocomplete)
+(require 'auto-complete-config)
+(ac-config-default)
